@@ -1,0 +1,1 @@
+BetterDiscord plugin for server
