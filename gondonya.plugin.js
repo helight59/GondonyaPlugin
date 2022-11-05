@@ -3,8 +3,8 @@
  * @author Helight59
  * @description Describe the basic functions. Maybe a support server link.
  * @version 0.0.1
- * @source https://github.com/Inve1951/BetterDiscordStuff/blob/master/plugins/gondonya.plugin.js
- * @updateUrl https://raw.githubusercontent.com/Inve1951/BetterDiscordStuff/master/plugins/gondonya.plugin.js
+ * @source https://github.com/helight59/GondonyaPlugin/blob/main/gondonya.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/helight59/GondonyaPlugin/main/gondonya.plugin.js
  */
 
 module.exports = class GondonyaPlugin {
