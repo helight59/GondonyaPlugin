@@ -14,12 +14,15 @@ module.exports = class GondonyaPlugin {
       const allSidebarUsersBlocks = Array.from(document.querySelectorAll('.member-2gU6Ar.member-48YF_l'));
 
       allSidebarUsersBlocks.forEach(userBlock => {
+        console.log('this.testFunc()', this.testFunc);
+        this.testFunc();
+
         const userName = userBlock.querySelector('.username-i5-wv- .username-u-ebrn').innerText;
 
         console.log(userName, userName === testName);
         if (userName === testName) {
           const gameName = userBlock.querySelector('.username-i5-wv- .username-u-ebrn').innerText;
-          console.log('userBlock', {...userBlock});
+          console.log('userBlock1111111111', {...userBlock});
           userBlock.classList.add("mystyle");
 
           BdApi.injectCSS("GondonyaPlugin", `
@@ -48,11 +51,8 @@ module.exports = class GondonyaPlugin {
 
       const allNames = Array.from(document.querySelectorAll('.username-i5-wv- .username-u-ebrn')).map(block => block.innerText);
       BdApi.showToast("allNames", allNames);
-      const gameName = document.querySelector("#app-mount div.subText-OGOWMj > div > div:nth-child(1) > strong");
+      // const gameName = document.querySelector("#app-mount div.subText-OGOWMj > div > div:nth-child(1) > strong");
 
-
-      console.log('this.testFunc()', this.testFunc);
-      this.testFunc();
     }
 
     testFunc() {
