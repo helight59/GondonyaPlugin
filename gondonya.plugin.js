@@ -57,7 +57,7 @@ module.exports = class GondonyaPlugin {
       BdApi.showToast("allNames", allNames);
       const gameName = document.querySelector("#app-mount div.subText-OGOWMj > div > div:nth-child(1) > strong");
 
-      testFunc();
+      this.testFunc();
     }
 
     testFunc() {
