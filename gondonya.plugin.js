@@ -7,13 +7,6 @@
  * @updateUrl https://raw.githubusercontent.com/helight59/GondonyaPlugin/main/gondonya.plugin.js
  */
 
-
-fs.readFile('https://raw.githubusercontent.com/helight59/GondonyaPlugin/main/gondonya.plugin.js', function (err, data) {
-  if (err) { throw err; }
-  
-  console.log('data', data);
-  return;
-});
 module.exports = class GondonyaPlugin {
     start() {
       // Called when the plugin is activated (including after reloads)
@@ -57,7 +50,8 @@ module.exports = class GondonyaPlugin {
       BdApi.showToast("allNames", allNames);
       const gameName = document.querySelector("#app-mount div.subText-OGOWMj > div > div:nth-child(1) > strong");
 
-      
+
+      console.log('this.testFunc()', this.testFunc);
       this.testFunc();
     }
 
