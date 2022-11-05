@@ -87,6 +87,7 @@ module.exports = class GondonyaPlugin {
     }
 
     stop() {
-      // Called when the plugin is deactivated
+      const allSidebarUsersBlocks = Array.from(document.querySelectorAll('.member-2gU6Ar.member-48YF_l'));
+      allSidebarUsersBlocks.forEach(userBlock => userBlock.classList.remove("userSidebarCard"));
     }
 }
