@@ -55,6 +55,10 @@ module.exports = class GondonyaPlugin {
 
     }
 
+    getVersion() {
+      return '0.0.3';
+    }
+
     testFunc() {
       const allSidebarUsersBlocks = Array.from(document.querySelectorAll('.member-2gU6Ar.member-48YF_l'));
       console.log('testFunc', allSidebarUsersBlocks);
