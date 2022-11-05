@@ -2,7 +2,7 @@
  * @name GondonyaPlugin
  * @author Helight59
  * @description Describe the basic functions. Maybe a support server link.
- * @version 0.0.1
+ * @version 0.0.2
  * @source https://github.com/helight59/GondonyaPlugin/blob/main/gondonya.plugin.js
  * @updateUrl https://raw.githubusercontent.com/helight59/GondonyaPlugin/main/gondonya.plugin.js
  */
