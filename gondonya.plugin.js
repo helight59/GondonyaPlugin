@@ -17,10 +17,8 @@ module.exports = class GondonyaPlugin {
         const userName = userBlock.querySelector('.username-i5-wv- .username-u-ebrn').innerText;
 
         console.log(userName, userName === testName);
-        if (userName === testName) {
-          const gameName = userBlock.querySelector('.username-i5-wv- .username-u-ebrn').innerText;
-          userBlock.classList.add("userSidebarCard");
-        }
+          // const gameName = userBlock.querySelector('.username-i5-wv- .username-u-ebrn').innerText;
+        userBlock.classList.add("userSidebarCard");
       });
 
       const allNames = Array.from(document.querySelectorAll('.username-i5-wv- .username-u-ebrn')).map(block => block.innerText);
