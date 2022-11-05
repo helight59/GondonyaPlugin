@@ -14,9 +14,6 @@ module.exports = class GondonyaPlugin {
       const allSidebarUsersBlocks = Array.from(document.querySelectorAll('.member-2gU6Ar.member-48YF_l'));
 
       allSidebarUsersBlocks.forEach(userBlock => {
-        console.log('this.testFunc()', this.testFunc);
-        this.testFunc();
-
         const userName = userBlock.querySelector('.username-i5-wv- .username-u-ebrn').innerText;
 
         console.log(userName, userName === testName);
@@ -79,11 +76,6 @@ module.exports = class GondonyaPlugin {
           box-shadow: 0 0 2px 5px #00000094;
         }
       `);
-    }
-
-    testFunc() {
-      const allSidebarUsersBlocks = Array.from(document.querySelectorAll('.member-2gU6Ar.member-48YF_l'));
-      console.log('testFunc', allSidebarUsersBlocks);
     }
 
     stop() {
