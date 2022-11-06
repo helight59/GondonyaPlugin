@@ -68,6 +68,7 @@ module.exports = class GondonyaPlugin {
           border-radius: 4px;
           background-color: #00000040;
           margin-top: 4px;
+          color: #c18282;
         }
         
         #app-mount .userSidebarCard .avatar-6qzftW .wrapper-1VLyxH {
